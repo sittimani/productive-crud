@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { FooterComponent, HeaderComponent, RouterComponent } from './core/components';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hello world!!!</h1>
-      </header>
+    <div className='productive-crud'>
+      <RouterComponent></RouterComponent>
+      <FooterComponent />
     </div>
+
   );
 }
 
