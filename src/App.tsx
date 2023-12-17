@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { FooterComponent, HeaderComponent, RouterComponent } from './core/components';
+import { FooterComponent, RouterComponent } from './core/components';
 
 
 function App() {
